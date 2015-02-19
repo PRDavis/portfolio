@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio Mockup</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="title-logo" src="http://lorempixel.com/100/100/city" alt="Udacity Logo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="title-super text-thin">Jane Doette</h1>
+					<h4>Front-end Ninja</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="http://lorempixel.com/1200/300/nature" alt="Main Image">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img class="img-responsive" src="http://lorempixel.com/400/200/sports" alt="Appify" data-toggle="modal" data-target="#appifyModal">
+					<h3 class="text-uppercase">Appify</h3>
+					<p>https://github.com/udacity/appify</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="http://lorempixel.com/400/200/food" alt="Sunflower" data-toggle="modal" data-target="#sunflowerModal">
+					<h3 class="text-uppercase">Sunflower</h3>
+					<p>https://github.com/udacity/Sunflower</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="http://lorempixel.com/400/200/city" alt="Bokeh" data-toggle="modal" data-target="#bokehModal">
+					<h3 class="text-uppercase">Bokeh</h3>
+					<p>https://github.com/udacity/Bokeh</p>
+				</div>
+			</div>
+
+
+
+		</div>
+
+<!-- Modal -->
+<div class="modal fade" id="appifyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="appifyModalTitle">Appify Modal</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/400/200/sports" alt="Appify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus arcu quam, in finibus sapien cursus ac. Donec neque arcu, tempus ac hendrerit ut, tempor quis arcu. Cras ac eros non lectus congue interdum. Integer id dui quis orci ullamcorper auctor eu et neque. Pellentesque commodo dapibus massa, vel viverra ligula porttitor vel. Praesent sollicitudin quis tortor commodo hendrerit. Proin vehicula enim ac ullamcorper iaculis. Phasellus finibus massa sit amet consectetur accumsan.
+
+Nunc tincidunt tincidunt rhoncus. Praesent ultricies faucibus purus, vitae eleifend arcu dapibus rutrum. Vestibulum pretium at ex quis ornare. Aenean non imperdiet justo, condimentum congue dolor. Pellentesque tempus lorem neque, vitae porta felis convallis non. Morbi vulputate justo sem, a faucibus purus convallis vitae. Praesent lobortis metus quis urna volutpat, in condimentum sem aliquam. Donec tristique enim vitae neque tincidunt, eget scelerisque erat imperdiet. Vestibulum blandit ante nec facilisis molestie. Quisque luctus enim a nunc mollis fringilla. Maecenas ac massa vitae mauris luctus venenatis ac at libero. Phasellus id varius elit. Donec cursus convallis arcu sed auctor.
+
+Donec suscipit, magna vitae aliquam pharetra, lorem ex dapibus nisl, quis semper diam turpis et lectus. Cras accumsan sapien at aliquet facilisis. Donec laoreet ultricies ligula, a sagittis sapien ornare ut. Integer pharetra lorem quis mauris sodales, at pulvinar urna tincidunt. Suspendisse ac pretium diam, vel varius quam. Sed sed eros ipsum. Nulla ut urna pellentesque, vestibulum risus vel, aliquet est. Vivamus eget libero id risus mattis consequat ut in tortor. In consequat justo pulvinar arcu commodo fermentum. Fusce ac pulvinar justo. Mauris in scelerisque massa. Donec tristique leo nec pretium vulputate. Sed feugiat eu enim ut commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ut varius metus. Duis tincidunt pellentesque tortor, id scelerisque magna condimentum eget.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="sunflowerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="sunflowerModalTitle">Sunflower Modal</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/400/200/food" alt="Sunflower">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus arcu quam, in finibus sapien cursus ac. Donec neque arcu, tempus ac hendrerit ut, tempor quis arcu. Cras ac eros non lectus congue interdum. Integer id dui quis orci ullamcorper auctor eu et neque. Pellentesque commodo dapibus massa, vel viverra ligula porttitor vel. Praesent sollicitudin quis tortor commodo hendrerit. Proin vehicula enim ac ullamcorper iaculis. Phasellus finibus massa sit amet consectetur accumsan.
+
+Nunc tincidunt tincidunt rhoncus. Praesent ultricies faucibus purus, vitae eleifend arcu dapibus rutrum. Vestibulum pretium at ex quis ornare. Aenean non imperdiet justo, condimentum congue dolor. Pellentesque tempus lorem neque, vitae porta felis convallis non. Morbi vulputate justo sem, a faucibus purus convallis vitae. Praesent lobortis metus quis urna volutpat, in condimentum sem aliquam. Donec tristique enim vitae neque tincidunt, eget scelerisque erat imperdiet. Vestibulum blandit ante nec facilisis molestie. Quisque luctus enim a nunc mollis fringilla. Maecenas ac massa vitae mauris luctus venenatis ac at libero. Phasellus id varius elit. Donec cursus convallis arcu sed auctor.
+
+Donec suscipit, magna vitae aliquam pharetra, lorem ex dapibus nisl, quis semper diam turpis et lectus. Cras accumsan sapien at aliquet facilisis. Donec laoreet ultricies ligula, a sagittis sapien ornare ut. Integer pharetra lorem quis mauris sodales, at pulvinar urna tincidunt. Suspendisse ac pretium diam, vel varius quam. Sed sed eros ipsum. Nulla ut urna pellentesque, vestibulum risus vel, aliquet est. Vivamus eget libero id risus mattis consequat ut in tortor. In consequat justo pulvinar arcu commodo fermentum. Fusce ac pulvinar justo. Mauris in scelerisque massa. Donec tristique leo nec pretium vulputate. Sed feugiat eu enim ut commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ut varius metus. Duis tincidunt pellentesque tortor, id scelerisque magna condimentum eget.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="bokehModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="bokehModalTitle">Bokeh Modal</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/400/200/city" alt="Bokeh">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus arcu quam, in finibus sapien cursus ac. Donec neque arcu, tempus ac hendrerit ut, tempor quis arcu. Cras ac eros non lectus congue interdum. Integer id dui quis orci ullamcorper auctor eu et neque. Pellentesque commodo dapibus massa, vel viverra ligula porttitor vel. Praesent sollicitudin quis tortor commodo hendrerit. Proin vehicula enim ac ullamcorper iaculis. Phasellus finibus massa sit amet consectetur accumsan.
+
+Nunc tincidunt tincidunt rhoncus. Praesent ultricies faucibus purus, vitae eleifend arcu dapibus rutrum. Vestibulum pretium at ex quis ornare. Aenean non imperdiet justo, condimentum congue dolor. Pellentesque tempus lorem neque, vitae porta felis convallis non. Morbi vulputate justo sem, a faucibus purus convallis vitae. Praesent lobortis metus quis urna volutpat, in condimentum sem aliquam. Donec tristique enim vitae neque tincidunt, eget scelerisque erat imperdiet. Vestibulum blandit ante nec facilisis molestie. Quisque luctus enim a nunc mollis fringilla. Maecenas ac massa vitae mauris luctus venenatis ac at libero. Phasellus id varius elit. Donec cursus convallis arcu sed auctor.
+
+Donec suscipit, magna vitae aliquam pharetra, lorem ex dapibus nisl, quis semper diam turpis et lectus. Cras accumsan sapien at aliquet facilisis. Donec laoreet ultricies ligula, a sagittis sapien ornare ut. Integer pharetra lorem quis mauris sodales, at pulvinar urna tincidunt. Suspendisse ac pretium diam, vel varius quam. Sed sed eros ipsum. Nulla ut urna pellentesque, vestibulum risus vel, aliquet est. Vivamus eget libero id risus mattis consequat ut in tortor. In consequat justo pulvinar arcu commodo fermentum. Fusce ac pulvinar justo. Mauris in scelerisque massa. Donec tristique leo nec pretium vulputate. Sed feugiat eu enim ut commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ut varius metus. Duis tincidunt pellentesque tortor, id scelerisque magna condimentum eget.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	</body>
+
+</html>
