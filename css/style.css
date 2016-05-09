@@ -20,3 +20,8 @@ body {
 .title-logo {
 	margin-top: 20px;
 }
+
+.no-Link-change{
+	color: #747704;
+	text-decoration: none;
+}
