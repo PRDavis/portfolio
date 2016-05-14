@@ -7,7 +7,7 @@ my projects.
 ### How to use:
 
 - Clone the repository
-- Open the index.html file into a browser
+- Open the portfolio.html file into a browser
 
 ***
 
